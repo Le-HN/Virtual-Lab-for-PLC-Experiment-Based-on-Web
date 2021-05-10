@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.title {
+	font-family: "didact-gothic";
+	font-size: 80px;
+	text-align: center;
+	color: #87CEFA;
+	padding-top: 120px;
+}
+.logbut {
+	font-family: "didact-gothic";
+	width: 120px;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #87CEFA;
+	color: #C4C4C4;
+	transition: all 0.3s linear;
+}
+.logbut:hover {
+	background-color: #FEFEFE;
+	color: #00008B;
+	cursor: pointer;
+}
+@keyframes moving
+{
+    0% {padding-top: 0px; opacity: 0;}
+    50% {padding-top: 120px; opacity: 0.4;}
+	100% {padding-top: 0px; opacity: 0.8;}
+}
+.anima {
+	animation: moving;
+	animation-duration: 5s;
+	position: relative;
+	opacity: 0.8;
+}
